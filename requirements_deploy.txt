@@ -1,0 +1,11 @@
+rich
+fastapi
+uvicorn[standard]
+apscheduler
+requests
+python-multipart
+groq
+google-generativeai
+huggingface_hub
+edge-tts
+gitpython
