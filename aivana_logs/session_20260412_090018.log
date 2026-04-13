@@ -1,0 +1,129 @@
+2026-04-12 09:00:19,081 | INFO | Imported existing <module 'comtypes.gen' from 'C:\\Users\\LAPPYHUB\\AppData\\Roaming\\Python\\Python313\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-12 09:00:19,082 | INFO | Using writeable comtypes cache directory: 'C:\Users\LAPPYHUB\AppData\Roaming\Python\Python313\site-packages\comtypes\gen'
+2026-04-12 09:00:19,518 | INFO | [plugins] Loaded 53 plugin(s) from C:\Users\LAPPYHUB\AIVANA_Commander\plugins
+2026-04-12 09:00:21,083 | INFO | [server] Web dashboard online
+2026-04-12 09:00:23,833 | INFO | [watcher] File watcher disabled. Type 'watcher on' to enable.
+2026-04-12 09:00:23,835 | INFO | Scheduler started
+2026-04-12 09:00:23,836 | INFO | Added job "health_monitor" to job store "default"
+2026-04-12 09:00:23,836 | INFO | [scheduler] Health monitor every 180s
+2026-04-12 09:02:00,398 | INFO | [cli] [cli] scripts
+2026-04-12 09:03:24,010 | INFO | Running job "health_monitor (trigger: interval[0:03:00], next run at: 2026-04-12 09:06:23 IST)" (scheduled at 2026-04-12 09:03:23.836207+05:30)
+2026-04-12 09:03:24,048 | INFO | [monitor] Health check cycle
+2026-04-12 09:03:24,055 | INFO | [status] [status] starting (attempt 1, env=prod)
+2026-04-12 09:03:29,180 | INFO | [status] [status] ? FAILED (5.1s) exit:1
+2026-04-12 09:03:30,406 | INFO | [monitor] Health: STATUS FAILED ? heal + repair
+2026-04-12 09:03:30,408 | INFO | [heal] [heal] starting (attempt 1, env=prod)
+2026-04-12 09:03:32,808 | INFO | [heal] [heal] ? FAILED (2.4s) exit:1
+2026-04-12 09:03:33,321 | INFO | [heal] Auto-repair before retry 2
+2026-04-12 09:03:33,324 | INFO | [repair] [repair] starting (attempt 1, env=prod)
+2026-04-12 09:03:35,162 | INFO | [repair] Starting AIVANA Auto Repair...
+2026-04-12 09:03:35,497 | INFO | [repair] Cleaning old Node/npm processes...
+2026-04-12 09:03:35,641 | INFO | [repair] Removing old Node.js and npm cache...
+2026-04-12 09:03:39,446 | INFO | [repair] Installing Node.js (LTS) via Chocolatey...
+2026-04-12 09:05:42,414 | INFO | [repair] Verifying Node.js installation...
+2026-04-12 09:05:43,602 | INFO | [repair] v24.14.1
+2026-04-12 09:05:48,984 | INFO | [repair] 11.11.0
+2026-04-12 09:05:50,904 | INFO | [repair] 11.11.0
+2026-04-12 09:05:50,995 | INFO | [repair] Fixing PATH...
+2026-04-12 09:05:51,189 | INFO | [repair] Repair complete! Please close and reopen PowerShell or VS Code.
+2026-04-12 09:05:51,199 | INFO | [repair] Then run:  cd C:\Users\LAPPYHUB\aurora-dashboard
+2026-04-12 09:05:51,208 | INFO | [repair] And start your app with: npm start
+2026-04-12 09:05:51,213 | INFO | [repair] AIVANA Auto-Heal Engine ready - Aurora Dashboard will now run cleanly.
+2026-04-12 09:05:51,937 | INFO | [repair] [repair] ? SUCCESS in 138.6s
+2026-04-12 09:05:53,270 | INFO | [heal] Retrying [heal] in 5s
+2026-04-12 09:05:58,295 | INFO | [heal] [heal] starting (attempt 2, env=prod)
+2026-04-12 09:06:03,746 | INFO | [heal] [heal] ? FAILED (5.4s) exit:1
+2026-04-12 09:06:04,969 | INFO | [heal] Auto-repair before retry 3
+2026-04-12 09:06:04,974 | INFO | [repair] [repair] starting (attempt 1, env=prod)
+2026-04-12 09:06:07,855 | INFO | [repair] Starting AIVANA Auto Repair...
+2026-04-12 09:06:09,369 | INFO | [repair] Cleaning old Node/npm processes...
+2026-04-12 09:06:09,898 | INFO | [repair] Removing old Node.js and npm cache...
+2026-04-12 09:06:18,068 | INFO | [repair] Installing Node.js (LTS) via Chocolatey...
+2026-04-12 09:06:24,006 | WARNING | Execution of job "health_monitor (trigger: interval[0:03:00], next run at: 2026-04-12 09:06:23 IST)" skipped: maximum number of running instances reached (1)
+2026-04-12 09:07:55,670 | INFO | HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-12 09:07:55,926 | INFO | [ai] AI ? answer:I am AIVANA Commander v6. What can I do for you today?
+
+Please enter your comman
+2026-04-12 09:08:28,169 | INFO | [repair] Verifying Node.js installation...
+2026-04-12 09:08:28,555 | INFO | [repair] v24.14.1
+2026-04-12 09:08:30,561 | INFO | [repair] 11.11.0
+2026-04-12 09:08:31,438 | INFO | [repair] 11.11.0
+2026-04-12 09:08:31,472 | INFO | [repair] Fixing PATH...
+2026-04-12 09:08:31,512 | INFO | [repair] Repair complete! Please close and reopen PowerShell or VS Code.
+2026-04-12 09:08:31,515 | INFO | [repair] Then run:  cd C:\Users\LAPPYHUB\aurora-dashboard
+2026-04-12 09:08:31,517 | INFO | [repair] And start your app with: npm start
+2026-04-12 09:08:31,520 | INFO | [repair] AIVANA Auto-Heal Engine ready - Aurora Dashboard will now run cleanly.
+2026-04-12 09:08:31,756 | INFO | [repair] [repair] ? SUCCESS in 146.8s
+2026-04-12 09:08:32,399 | INFO | [heal] Retrying [heal] in 5s
+2026-04-12 09:08:37,401 | INFO | [heal] [heal] starting (attempt 3, env=prod)
+2026-04-12 09:08:39,327 | INFO | [heal] [heal] ? FAILED (1.9s) exit:1
+2026-04-12 09:08:39,946 | INFO | [heal] [heal] exhausted 3 retries
+2026-04-12 09:08:40,293 | INFO | [repair] [repair] starting (attempt 1, env=prod)
+2026-04-12 09:08:41,665 | INFO | [repair] Starting AIVANA Auto Repair...
+2026-04-12 09:08:41,975 | INFO | [repair] Cleaning old Node/npm processes...
+2026-04-12 09:08:42,110 | INFO | [repair] Removing old Node.js and npm cache...
+2026-04-12 09:08:44,565 | INFO | [repair] Installing Node.js (LTS) via Chocolatey...
+2026-04-12 09:09:23,867 | WARNING | Execution of job "health_monitor (trigger: interval[0:03:00], next run at: 2026-04-12 09:09:23 IST)" skipped: maximum number of running instances reached (1)
+2026-04-12 09:10:03,117 | INFO | [repair] Verifying Node.js installation...
+2026-04-12 09:10:03,441 | INFO | [repair] v24.14.1
+2026-04-12 09:10:05,139 | INFO | [repair] 11.11.0
+2026-04-12 09:10:06,067 | INFO | [repair] 11.11.0
+2026-04-12 09:10:06,259 | INFO | [repair] Fixing PATH...
+2026-04-12 09:10:06,300 | INFO | [repair] Repair complete! Please close and reopen PowerShell or VS Code.
+2026-04-12 09:10:06,302 | INFO | [repair] Then run:  cd C:\Users\LAPPYHUB\aurora-dashboard
+2026-04-12 09:10:06,304 | INFO | [repair] And start your app with: npm start
+2026-04-12 09:10:06,307 | INFO | [repair] AIVANA Auto-Heal Engine ready - Aurora Dashboard will now run cleanly.
+2026-04-12 09:10:06,376 | INFO | [repair] [repair] ? SUCCESS in 86.1s
+2026-04-12 09:10:07,000 | INFO | Job "health_monitor (trigger: interval[0:03:00], next run at: 2026-04-12 09:12:23 IST)" executed successfully
+2026-04-12 09:12:23,864 | INFO | Running job "health_monitor (trigger: interval[0:03:00], next run at: 2026-04-12 09:15:23 IST)" (scheduled at 2026-04-12 09:12:23.836207+05:30)
+2026-04-12 09:12:23,864 | INFO | [monitor] Health check cycle
+2026-04-12 09:12:23,865 | INFO | [status] [status] starting (attempt 1, env=prod)
+2026-04-12 09:12:25,083 | INFO | [status] [status] ? FAILED (1.2s) exit:1
+2026-04-12 09:12:25,655 | INFO | [monitor] Health: STATUS FAILED ? heal + repair
+2026-04-12 09:12:25,656 | INFO | [heal] [heal] starting (attempt 1, env=prod)
+2026-04-12 09:12:26,780 | INFO | [heal] [heal] ? FAILED (1.1s) exit:1
+2026-04-12 09:12:27,182 | INFO | [heal] Auto-repair before retry 2
+2026-04-12 09:12:27,182 | INFO | [repair] [repair] starting (attempt 1, env=prod)
+2026-04-12 09:12:28,632 | INFO | [repair] Starting AIVANA Auto Repair...
+2026-04-12 09:12:28,909 | INFO | [repair] Cleaning old Node/npm processes...
+2026-04-12 09:12:29,105 | INFO | [repair] Removing old Node.js and npm cache...
+2026-04-12 09:12:31,262 | INFO | [repair] Installing Node.js (LTS) via Chocolatey...
+2026-04-12 09:13:46,581 | INFO | [repair] Verifying Node.js installation...
+2026-04-12 09:13:47,944 | INFO | [repair] v24.14.1
+2026-04-12 09:13:48,951 | INFO | [repair] 11.11.0
+2026-04-12 09:13:50,181 | INFO | [repair] 11.11.0
+2026-04-12 09:13:50,204 | INFO | [repair] Fixing PATH...
+2026-04-12 09:13:51,071 | INFO | [repair] Repair complete! Please close and reopen PowerShell or VS Code.
+2026-04-12 09:13:51,073 | INFO | [repair] Then run:  cd C:\Users\LAPPYHUB\aurora-dashboard
+2026-04-12 09:13:51,077 | INFO | [repair] And start your app with: npm start
+2026-04-12 09:13:51,079 | INFO | [repair] AIVANA Auto-Heal Engine ready - Aurora Dashboard will now run cleanly.
+2026-04-12 09:13:51,153 | INFO | [repair] [repair] ? SUCCESS in 84.0s
+2026-04-12 09:13:51,721 | INFO | [heal] Retrying [heal] in 5s
+2026-04-12 09:13:56,722 | INFO | [heal] [heal] starting (attempt 2, env=prod)
+2026-04-12 09:13:57,917 | INFO | [heal] [heal] ? FAILED (1.2s) exit:1
+2026-04-12 09:13:58,493 | INFO | [heal] Auto-repair before retry 3
+2026-04-12 09:13:58,494 | INFO | [repair] [repair] starting (attempt 1, env=prod)
+2026-04-12 09:13:59,518 | INFO | [repair] Starting AIVANA Auto Repair...
+2026-04-12 09:13:59,702 | INFO | [repair] Cleaning old Node/npm processes...
+2026-04-12 09:13:59,766 | INFO | [repair] Removing old Node.js and npm cache...
+2026-04-12 09:14:01,166 | INFO | [repair] Installing Node.js (LTS) via Chocolatey...
+2026-04-12 09:15:14,143 | INFO | [repair] Verifying Node.js installation...
+2026-04-12 09:15:14,241 | INFO | [repair] v24.14.1
+2026-04-12 09:15:14,917 | INFO | [repair] 11.11.0
+2026-04-12 09:15:15,504 | INFO | [repair] 11.11.0
+2026-04-12 09:15:15,526 | INFO | [repair] Fixing PATH...
+2026-04-12 09:15:15,543 | INFO | [repair] Repair complete! Please close and reopen PowerShell or VS Code.
+2026-04-12 09:15:15,545 | INFO | [repair] Then run:  cd C:\Users\LAPPYHUB\aurora-dashboard
+2026-04-12 09:15:15,547 | INFO | [repair] And start your app with: npm start
+2026-04-12 09:15:15,550 | INFO | [repair] AIVANA Auto-Heal Engine ready - Aurora Dashboard will now run cleanly.
+2026-04-12 09:15:15,591 | INFO | [repair] [repair] ? SUCCESS in 77.1s
+2026-04-12 09:15:16,150 | INFO | [heal] Retrying [heal] in 5s
+2026-04-12 09:15:21,155 | INFO | [heal] [heal] starting (attempt 3, env=prod)
+2026-04-12 09:15:21,985 | INFO | [heal] [heal] ? FAILED (0.8s) exit:1
+2026-04-12 09:15:22,540 | INFO | [heal] [heal] exhausted 3 retries
+2026-04-12 09:15:22,844 | INFO | [repair] [repair] starting (attempt 1, env=prod)
+2026-04-12 09:15:23,658 | INFO | [repair] Starting AIVANA Auto Repair...
+2026-04-12 09:15:23,823 | INFO | [repair] Cleaning old Node/npm processes...
+2026-04-12 09:15:23,848 | WARNING | Execution of job "health_monitor (trigger: interval[0:03:00], next run at: 2026-04-12 09:15:23 IST)" skipped: maximum number of running instances reached (1)
+2026-04-12 09:15:23,901 | INFO | [repair] Removing old Node.js and npm cache...
+2026-04-12 09:15:25,178 | INFO | [repair] Installing Node.js (LTS) via Chocolatey...

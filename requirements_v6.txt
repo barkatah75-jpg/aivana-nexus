@@ -1,0 +1,26 @@
+# AIVANA Commander v6.0 OMEGA — Requirements
+# Run: pip install -r requirements_v6.txt
+
+# ── Core (Required) ──────────────────────────────────────────
+ollama
+rich
+fastapi
+uvicorn[standard]
+apscheduler
+watchdog
+requests
+python-multipart
+
+# ── Voice (Optional) ─────────────────────────────────────────
+# SpeechRecognition
+# pyaudio          # Windows: pip install pipwin && pipwin install pyaudio
+# pyttsx3
+
+# ── Git Integration (Optional) ───────────────────────────────
+# gitpython
+
+# ── Docker SDK (Optional) ────────────────────────────────────
+# docker
+
+# ── Email ─────────────────────────────────────────────────────
+# (uses built-in smtplib — no install needed)

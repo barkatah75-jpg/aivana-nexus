@@ -1,0 +1,3 @@
+2026-04-12 22:24:25,335 | INFO | HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-04-12 22:24:25,342 | INFO | [ai] Ollama ready (llama3)
+2026-04-12 22:24:25,400 | INFO | [plugins] Loaded 53 plugins

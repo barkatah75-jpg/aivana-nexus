@@ -1,0 +1,10 @@
+2026-04-12 23:28:05,390 | INFO | HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-04-12 23:28:05,398 | INFO | [ai] Ollama ready (llama3)
+2026-04-12 23:28:05,398 | INFO | [voice] Loading Whisper (base)...
+2026-04-12 23:28:08,296 | INFO | [voice] Whisper STT ready
+2026-04-12 23:28:08,369 | INFO | [plugins] Loaded 53 plugins
+2026-04-12 23:28:09,898 | INFO | [server] Web dashboard online
+2026-04-12 23:28:09,899 | INFO | Scheduler started
+2026-04-12 23:28:09,900 | INFO | Added job "health_monitor" to job store "default"
+2026-04-12 23:28:09,900 | INFO | [scheduler] Health monitor every 300s
+2026-04-12 23:29:03,111 | INFO | Scheduler has been shut down

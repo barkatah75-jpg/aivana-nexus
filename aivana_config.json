@@ -1,0 +1,11 @@
+{
+  "TELEGRAM_TOKEN": "7971210207:AAGxszjrHx60yVv9dtgy-Ohv-6BiRVnJgNw",
+  "TELEGRAM_CHAT_ID": "1875063875",
+  "DISCORD_WEBHOOK": "https://discord.com/api/webhooks/...",
+  "WHATSAPP_URL": "http://localhost:3000/send",
+  "SMTP_HOST": "smtp.gmail.com",
+  "SMTP_PORT": 587,
+  "SMTP_USER": "barkatah75@gmail.com",
+  "SMTP_PASS": "Barkat@1234_app_password",
+  "SMTP_TO": "alerts@email.com"
+}

@@ -1,0 +1,27 @@
+# AIVANA NEXUS v7.0 — Requirements
+# pip install -r requirements_nexus.txt
+
+# ── Core (Required) ───────────────────────────────────────
+rich
+fastapi
+uvicorn[standard]
+apscheduler
+requests
+python-multipart
+
+# ── AI Providers (install what you want) ─────────────────
+ollama                      # Local AI — ollama.com (FREE)
+groq                        # Groq API — console.groq.com (FREE tier)
+google-generativeai         # Gemini — aistudio.google.com (FREE tier)
+huggingface_hub             # HuggingFace — huggingface.co (FREE)
+
+# ── Voice (optional but powerful) ────────────────────────
+openai-whisper              # Local STT — very accurate (FREE)
+edge-tts                    # Microsoft TTS 300+ voices (FREE)
+SpeechRecognition           # Fallback STT (FREE)
+sounddevice                 # Microphone input for Whisper
+# Windows mic: pip install pipwin && pipwin install pyaudio
+
+# ── Integrations (optional) ──────────────────────────────
+gitpython                   # Git SDK
+docker                      # Docker SDK

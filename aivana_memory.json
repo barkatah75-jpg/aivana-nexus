@@ -1,0 +1,12 @@
+{
+  "patterns": {},
+  "failures": {
+    "status": 14,
+    "deploy": 1
+  },
+  "successes": {
+    "repair": 2
+  },
+  "notes": {},
+  "schedules": {}
+}

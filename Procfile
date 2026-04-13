@@ -1,0 +1,6 @@
+web:
+uvicorn
+nexus_v7:app
+--host
+0.0.0.0
+--port
